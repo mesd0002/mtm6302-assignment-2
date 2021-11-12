@@ -1,4 +1,13 @@
-const $imageGallery = document.querySelector ("image-1")
+const $imageGallery = document.querySelectorAll(".image_gallery")
+// $imageGallery.innerHTML 
 
-imageGallery.innerHTML ='<img width="100" height="100" src="images/image1.jpg">';
+//images are all from unsplashed: https://unsplash.com/s/photos/birds
+let i = 1; 
+for (const img of $imageGallery) {
+    
+    img.innerHTML =`<img width="400" height="400" src="images/image${i}.jpg">`;
+ //console.log (img)
+ i++
+}
+
 
