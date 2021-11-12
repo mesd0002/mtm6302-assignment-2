@@ -7,11 +7,21 @@
 
 /* creating grid with 4 rows and 3 columns */
 
-#image-1 {
+.image_gallery {
     padding: 10px;
     background-color: #D3D3D3;
 }
-  
+
+.image-1 {
+    vertical-align: middle;
+}
+@media screen and (max-width: 992px) {
+    .container {
+        display: grid;
+        grid-template-columns: 2fr;
+        grid-template-rows: auto;
+    }
+  }
   @media screen and (max-width: 600px) {
     .container {
         display: grid;
@@ -19,3 +29,4 @@
         grid-template-rows: auto;
     }
   }
+

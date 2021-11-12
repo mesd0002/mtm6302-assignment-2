@@ -9,5 +9,7 @@ for (const img of $imageGallery) {
  //console.log (img)
  i++
 }
-
-
+ 
+$imageGallery.addEventListener("click", (e) {
+    console.log
+}
