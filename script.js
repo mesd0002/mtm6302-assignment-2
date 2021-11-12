@@ -1,3 +1,5 @@
+//dyanmically adding photos HTML divs
+
 const $imageGallery = document.querySelectorAll(".image_gallery")
 // $imageGallery.innerHTML 
 
@@ -10,6 +12,11 @@ for (const img of $imageGallery) {
  i++
 }
  
-$imageGallery.addEventListener("click", (e) {
-    console.log
-}
+//insert exciting event here to functions through event delegation that helps users with navigation 1
+
+const $container = document.getElementsByClassName('container')
+
+$imageGallery.addEventListener("click", function (e) {
+    console.log(e);
+});
+//insert exciting event here to functions through event delegation that helps users with navigation 2
