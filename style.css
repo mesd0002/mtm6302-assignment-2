@@ -1,0 +1,17 @@
+/* Setting up grid for image gallery */
+.container {
+    width: 80%;
+    padding: 1%;
+}
+
+/* creating grid with 4 rows and 3 columns */
+.image-gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr
+}
+
+#image-1 {
+    padding: 10px;
+    background-color: #D3D3D3;
+}
